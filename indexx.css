@@ -1,0 +1,84 @@
+body {
+  /* background-image: url(../img/indexBackground.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll; */
+  margin: 0;
+  padding: 0;
+  width: 100vm;
+  background-color: #eac8b4e0;
+  position: relative;
+}
+.headd {
+  font-size: 8vmin;
+  position: relative;
+  top: 2%;
+  text-align: center;
+}
+.BackHouse {
+  position: fixed;
+  right: 1%;
+  top: 8%;
+  font-size: 3vmin;
+}
+.houseBMP {
+  width: 5vmin;
+  height: 5vmin;
+  position: relative;
+  top: 1vmin;
+}
+.diary {
+  position: fixed;
+  bottom: 5%;
+  left: 2%;
+  font-size: 3vmin;
+  text-align: center;
+}
+#timetxt {
+  position: fixed;
+  left: 2%;
+  top: 3%;
+}
+
+.mainm {
+  width: 70vw;
+  position: absolute;
+  left: 15vw;
+  top: 15vh;
+  background-color: rgb(232, 233, 241);
+  box-shadow: 2vmin 3vmin 5vmin 0 rgb(139, 139, 139);
+  border-radius: 20px;
+}
+
+.gongneng {
+  background-color: whitesmoke;
+  margin: 0 auto;
+  margin-left: 30vw;
+  margin-right: 30vw;
+  box-shadow: 0.5vmin 1vmin 1vmin rgb(92, 91, 91);
+  border-radius: 45%;
+  height: 10vmin;
+  font-size: 5vmin;
+  line-height: 10vmin;
+  padding: 0 auto;
+  text-align: center;
+  margin-top: 3vmin;
+  text-decoration: none;
+  word-break: keep-all;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  color: rgb(80, 144, 240);
+  text-decoration: none;
+}
+.fiftyDays {
+  margin: 3vh auto;
+  text-align: center;
+  font-size: 5vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
